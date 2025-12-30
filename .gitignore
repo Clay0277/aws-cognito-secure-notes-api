@@ -1,0 +1,9 @@
+cat > .gitignore <<EOF
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.env
+node_modules/
+.DS_Store
+EOF
